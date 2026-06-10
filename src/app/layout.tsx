@@ -38,6 +38,7 @@ export default function RootLayout({
     <html
       lang="th"
       className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} ${sarabun.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sarabun">{children}</body>
     </html>

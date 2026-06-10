@@ -27,5 +27,8 @@ This repository is designed to create modern presentation pages using Next.js an
 - Usually use `playwright-cli --help`  command  for research before using `playwright-cli` tool
 - Use `playwright-cli open ...`  command  for view page 
 - Use `playwright-cli show` for user track your progress persistently.
-- Use teminal command `playwright-cli show --annotate`  for user annotation  and wait  user  input
+- Use teminal command `playwright-cli show --annotate`  for user annotation  and wait  user  input ,only  do this when user ask. 
 - Dont use another browser to view result use only `playwright-cli`
+
+## Restart Dev Server
+ - use `npx kill-port 3000` then `bun dev`  again
